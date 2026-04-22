@@ -18,7 +18,7 @@ export function Hero() {
       className="relative min-h-[80vh] lg:min-h-[85vh] flex items-center overflow-hidden"
     >
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-red-600/10 via-orange-400/5 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-br from-red-600/10 via-orange-400/5 to-transparent pointer-events-none" />
 
       <div className="container mx-auto px-6 lg:px-12 pt-24 pb-10">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
@@ -87,12 +87,12 @@ export function Hero() {
                 transition-all duration-300"
               >
                 <a
-                  href="https://wa.me/55555195198524?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+                  href="https://wa.me/5551995198524?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2"
                 >
-                <FaWhatsapp size={22} />
+                  <FaWhatsapp size={22} />
                   Falar com Especialista
                 </a>
               </Button>
@@ -116,7 +116,7 @@ export function Hero() {
                   w-[52px] h-[52px] min-w-[52px] min-h-[52px] aspect-square
                   rounded-full 
                   bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 
-                  text-white text-xl"
+                  text-white text-xl cursor-pointer z-10"
                 >
                   <FaInstagram />
                 </a>

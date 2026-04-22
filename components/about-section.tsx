@@ -4,10 +4,11 @@ import Image from "next/image"
 import { useState } from "react"
 
 const images = [
-  "/treinamento1.jpg",
-  "/treinamento2.jpg",
-  "/treinamento3.jpg",
-  "/treinamento4.jpg",
+  "/aulapratica.jpeg",
+  "/aulapratica1.jpeg",
+  "/aulapratica3.jpeg",
+  "/aulapratica4.jpeg",
+  "/aulapratica5.jpeg",
 ]
 
 export function AboutSection() {
